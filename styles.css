@@ -1,0 +1,79 @@
+
+        /* CSS code */
+
+/* Center align the text within the <body> element */
+body {
+  text-align: center;
+}
+
+/* Select the <h1> element */
+/* Define the blinking animation */
+h1 {
+    animation: blink 1s infinite; /* 1s is the duration, 'infinite' makes it repeat indefinitely */
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Apply the animation to the h1 element */
+  
+/* Select the <h3> elements */
+h3 {
+  font-weight: bold;
+  color: orange;
+}
+
+/* Select the <img> element */
+img {
+  width: 400px;
+}
+
+/* Select the <ul> element */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Select the <table> element */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Select the table header cells */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* Select the table cells */
+td {
+  padding: 8px;
+}
+
+/* Select the <p> element */
+p {
+  text-align: justify;
+}
+
+/* Select the <a> element within the <h4> element */
+h4 a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Select the <footer> element */
+footer {
+  font-size: 12px;
+  color: #999999;
+}
+
+hr {
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the rule */
+    background-color: #000; /* Set the background color of the rule */
+    margin: 20px 0; /* Add some margin above and below the rule */
+  }
